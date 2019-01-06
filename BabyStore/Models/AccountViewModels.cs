@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace BabyStore.Models
@@ -48,7 +48,7 @@ namespace BabyStore.Models
 
     public class LoginViewModel
     {
-        [Required]
+        //[Required]
         [Display(Name = "Email")]
         [EmailAddress]
         public string Email { get; set; }
