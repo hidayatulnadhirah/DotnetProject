@@ -1,4 +1,4 @@
-﻿using System.Data.Entity;
+using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
@@ -16,6 +16,13 @@ namespace BabyStore.Models
             // Add custom user claims here
             return userIdentity;
         }
+    }
+
+    public class ApplicationRole : IdentityRole
+    {
+        public ApplicationRole() : base() { }
+
+        public ApplicationRole(string roleName) : base(roleName) { }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
