@@ -47,17 +47,17 @@ namespace BabyStore
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
             // Uncomment the following lines to enable logging in with third party login providers
-            //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+            app.UseMicrosoftAccountAuthentication(
+             clientId: "41d6adf6-93a4-4d6f-95c4-50dfaf43d0a2",
+                clientSecret: " waiatSD2{?pjQGPKI7780;% ");
 
             //app.UseTwitterAuthentication(
             //   consumerKey: "",
             //   consumerSecret: "");
 
             //app.UseFacebookAuthentication(
-              // appId: "254550588770646",
-              // appSecret: "870256e0419d96e53315875cc504e9db"); 
+            // appId: "254550588770646",
+            // appSecret: "870256e0419d96e53315875cc504e9db"); 
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
